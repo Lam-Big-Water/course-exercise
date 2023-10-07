@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4b4b4b;
+  height: 100vh;
+  background-color: #efefef;
+  padding: 5rem 10rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+header .logo {
+  font-size: 3rem;
+}
+header .login__area input {
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  border: 2px solid gray;
+  outline: none;
+  text-align: center;
+  margin-right: 1rem;
+}
+header .login__area button {
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid gray;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+main h1 {
+  margin: 0;
+}
+main .app h2 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+main .app button {
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 2px solid gray;
+  margin: 1rem 0.5rem 0 0;
+}
+main .app .user__data {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+main .app .user__data .acc__name {
+  font-size: 1.8rem;
+}
+main .app .user__data .acc__name .date {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+main .app .user__data .counter {
+  font-size: 2.5rem;
+}
+main .app .function {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 100rem;
+  height: 50rem;
+  margin: auto;
+}
+main .app .function .summary__list {
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 2rem;
+}
+main .app .function .interface {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+}
+main .app .function .interface .coding {
+  padding: 2rem;
+  background-color: yellowgreen;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 2rem;
+}
+main .app .function .interface .coding .time__player {
+  width: 12rem;
+  height: 1.5rem;
+  background-color: #fff;
+}
+main .app .function .interface .english {
+  padding: 2rem;
+  background-color: grey;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 2rem;
+}
+main .app .function .interface .english .time__player {
+  width: 12rem;
+  height: 1.5rem;
+  background-color: #fff;
+}
+main .app .function .interface .design {
+  padding: 2rem;
+  background-color: palevioletred;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  border-radius: 2rem;
+}
+main .app .function .interface .design .time__player {
+  width: 12rem;
+  height: 1.5rem;
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */

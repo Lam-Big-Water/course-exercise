@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #088;
+  font-family: helvetica, arial, sans-sans-serif;
+}
+
+.desktop {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+.desktop .computer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  gap: 0.8rem;
+}
+.desktop .computer .icon_computer {
+  width: 5rem;
+}
+.desktop .computer .name {
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+}
+.desktop .modal {
+  width: 80rem;
+  height: 60rem;
+  background-color: #cbcbcb;
+  border-left: 0.3rem solid #e5e5e5;
+  border-top: 0.3rem solid #e5e5e5;
+  border-right: 0.2rem solid #929292;
+  border-bottom: 0.2rem solid #929292;
+}
+.desktop .modal .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  padding: 0.2rem;
+  background: linear-gradient(to right, #008, #1084d0);
+}
+.desktop .modal .title h1 {
+  margin: 0;
+  padding: 0;
+}
+.desktop .modal .title .icon_file_search {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.desktop .modal .title .icon_file_search img {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: bottom;
+}
+.desktop .modal .title .btn_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.desktop .modal .title .btn_area .btn {
+  width: 2rem;
+  height: 2rem;
+  border-left: 0.2rem solid #ffffff;
+  border-top: 0.2rem solid #ffffff;
+  border-right: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  background-color: #cbcbcb;
+}
+.desktop .modal .title .btn_area .btn:active {
+  border-left: 0.2rem solid #000000;
+  border-top: 0.2rem solid #000000;
+  border-right: 0.2rem solid #ffffff;
+  border-bottom: 0.2rem solid #ffffff;
+}
+.desktop .modal .title .btn_area .btn:active .dot {
+  width: 100%;
+  height: 100%;
+  border: 0.2rem dotted #000000;
+}
+.desktop .modal .title .btn_area .btn .minisize {
+  width: 100%;
+  height: 100%;
+  border-left: 0.2rem solid #e5e5e5;
+  border-top: 0.2rem solid #e5e5e5;
+  border-right: 0.2rem solid #929292;
+  border-bottom: 0.2rem solid #929292;
+  background-image: url(./minisize.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+.desktop .modal .title .btn_area .btn .maxsize {
+  width: 100%;
+  height: 100%;
+  border-left: 0.2rem solid #e5e5e5;
+  border-top: 0.2rem solid #e5e5e5;
+  border-right: 0.2rem solid #929292;
+  border-bottom: 0.2rem solid #929292;
+  background-image: url(./maxsize.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+.desktop .modal .title .btn_area .btn .close {
+  width: 100%;
+  height: 100%;
+  border-left: 0.2rem solid #e5e5e5;
+  border-top: 0.2rem solid #e5e5e5;
+  border-right: 0.2rem solid #929292;
+  border-bottom: 0.2rem solid #929292;
+  background-image: url(./close.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}/*# sourceMappingURL=style.css.map */
