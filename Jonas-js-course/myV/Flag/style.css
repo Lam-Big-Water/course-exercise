@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: serif;
+  color: #555;
+  background-color: #f7f7f7;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo {
+  width: 40rem;
+  height: 60rem;
+  padding: 2rem;
+  border: 1px dotted #555;
+  background-color: #583131;
+  z-index: 1;
+  margin-top: 10rem;
+}
+.demo .country {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  z-index: 2;
+}
+.demo .country .photo {
+  flex: 1;
+  border: 1px solid #555;
+}
+.demo .country .data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #555;
+  font-size: 2.6rem;
+}
+.demo .country .data .btn {
+  display: block;
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1;
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */

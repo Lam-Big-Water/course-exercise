@@ -26,6 +26,7 @@ body {
   align-items: center;
   width: 10rem;
   gap: 0.8rem;
+  cursor: pointer;
 }
 .desktop .computer .icon_computer {
   width: 5rem;
@@ -34,6 +35,9 @@ body {
   font-size: 1.8rem;
   color: #fff;
   text-align: center;
+}
+.desktop .hidden {
+  display: none;
 }
 .desktop .modal {
   width: 80rem;
